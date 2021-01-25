@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Year Countdown</title>
+  <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.min.js'></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut ico" href="favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="hover-mouse/hover-style.css">
+  <link rel="stylesheet" href="clock/css/flipclock-0.7.7.css">
+  <link rel="stylesheet" href="hover-mouse/hover-main.css">
+  <script src="clock/js/jquery-2.1.4.min.js"></script>
+  <script src="clock/js/countdown-clock.js"></script>
+  <script src="clock/js/Time.js"></script>
+  <script src="clock/js/audio.js"></script>
+</head>
+<body>
+    <!-- Ngô Gia Hưng
+  _    _                         _   _             __     __             
+ | |  | |                       | \ | |            \ \   / /             
+ | |__| | __ _ _ __  _ __  _   _|  \| | _____      _\ \_/ /__  __ _ _ __ 
+ |  __  |/ _` | '_ \| '_ \| | | | . ` |/ _ \ \ /\ / /\   / _ \/ _` | '__|
+ | |  | | (_| | |_) | |_) | |_| | |\  |  __/\ V  V /  | |  __/ (_| | |   
+ |_|  |_|\__,_| .__/| .__/ \__, |_| \_|\___| \_/\_/   |_|\___|\__,_|_|   
+              | |   | |     __/ |                                        
+              |_|   |_|    |___/                                         
+ 
+ Chúc mừng năm mới. Chúc năm mới sức khỏe dẻo dai, công việc thuận lợi thăng tiến dài dài, phi những nước đại tiến tới thành công. -->
+  <header>
+      <marquee>
+          <h3>COUNTDOWN NEW YEAR 2021</h3> </marquee>
+  </header>
+  <div id="wrapper">
+    <div id="content">
+        <div class="new-year-clock"></div>
+    </div>
+    <div id="footer">
+      <a href="https://www.facebook.com.giahung.ngo.1023" style="font-family: sans-serif;">Facebook</a> | From <b style=" color:black;font-family: cursive; font-size: 20px">Ngô Gia Hưng</b> with love <i style="color: red; font-size: 24px">❤</i>
+    </div>
+    <div class="fun">
+        <div class="column add-bottom">
+            <div id="mainwrap">
+                <div id="nowPlay">
+                </div>
+                <div id="audiowrap">
+                    <div id="audio0">
+                        <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+      <div class="right">
+          <img src="./clock/images/hoamai-right.png">
+      </div>
+      <div class="left">
+          <img src="./clock/images/hoamai-left.png">
+      </div>
+  
+      <div id="container">
+        <!-- Main Container for Flip Timer and Tab controls -->
+ <style>
+    img {
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        transition: 0.5s;
+    }
+    
+    img:hover {
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -o-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+    
+ </style>
+    
+        <center>
+            <ul class="center">
+    
+    
+                <li>
+                    <div class="hover-circle effect1">
+                        <div class="overlay">
+                            <div style="text-shadow: 5px 5px 5px red; color: yellow;" class="info">
+                                <h3 style="text-shadow: 5px 5px 5px red; color: yellow;">2021</h3>
+                                <h4>Cung chúc tân niên</h4>
+                                <h4>Gia đạo bình yên</h4>
+                                <h4>Chồng thảo vợ hiền</h4>
+                                <h4>Ấm êm toàn diện.</h4>
+                            </div>
+                        </div>
+                        <img src="./clock/images/left1.jpg" />
+                    </div>
+                </li>
+                <li>
+                    <div class="hover-circle effect1">
+                        <div class="overlay">
+                            <div style="text-shadow: 5px 5px 5px red; color: yellow;" class="info">
+                                <h3 style="text-shadow: 5px 5px 5px red; color: yellow;">2021</h3>
+                                <h4>Cung chúc tân niên</h4>
+                                <h4>Làm ăn thuận tiện</h4>
+                                <h4>Kiếm được nhiều tiền</h4>
+                                <h4>Giầu sang vinh hiển.</h4>
+                            </div>
+                        </div>
+                        <img src="./clock/images/bg1.jpg" />
+                    </div>
+                </li>
+                <li>
+                    <div class="hover-circle effect1">
+                        <div class="overlay">
+                            <div style="text-shadow: 5px 5px 5px red; color: yellow;" class="info">
+                                <h3 style="text-shadow: 5px 5px 5px red; color: yellow;">2021</h3>
+    
+                                <h4>Cung chúc tân niên</h4>
+                                <h4>Thành đạt triền miên</h4>
+                                <h4>Sự nghiệp phát triển</h4>
+                                <h4>Công danh thẳng tiến.</h4>
+    
+                            </div>
+                        </div>
+                        <img src="./clock/images/right.jpg" />
+                    </div>
+                </li>
+                <ul>
+                    </section>
+    
+        </center>
+    
+    
+    
+    
+    
+    </div>
+    <!-- End of Container -->
+    </div>
+  
+    <div class="banner-left">
+        <img src="clock/images/banner_left.png" />
+    </div>
+    <div class="banner-right">
+        <img src="clock/images/banner_right.png" />
+    </div>
+
+    
+  </div>
+</body>
+</html>
+

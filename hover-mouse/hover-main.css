@@ -1,0 +1,99 @@
+html {
+  background: url(../clock/images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.new-year-clock {
+  top:300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+position: fixed;
+  padding:0.8em;
+  color:white;
+  display: block;
+  text-align: center;
+
+}
+
+#footer  span  {
+  color: #394BA0;
+  font-size: 20;
+
+}
+
+#footer a{
+  font-size: 20;
+}
+
+header{
+  padding: 1em;
+    color: white;
+    background-image: url();
+    display: block;
+}
+ h3{
+  font-size: 30px;
+  color: #fff000;
+}
+.fun{
+  bottom:60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;;
+}
+.right{
+  position: absolute;
+  background: none;
+  padding: 0;
+  border: none-webkit-border-radius: 0;
+  bottom: 0;
+  right:0;
+     }
+.left{
+  position: absolute;
+  background: none;
+  padding: 0;
+  border: none-webkit-border-radius: 0;
+  bottom: 0;
+  left:0;
+     }
+#container{
+  bottom: 130px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: center;
+  position: relative;;
+}
+.banner-left{
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+}
+.banner-right{
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+

@@ -1,0 +1,252 @@
+h3,h4,p {
+	margin: 0;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	list-style: none;
+	list-style-image: none;
+}
+#main
+{
+	padding: 0;
+	position: relative;
+	margin: 0 auto;
+    width: 100%;
+}
+h3
+{
+	font-size: 21px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+    color:#807f7f;}
+    #info {
+        margin-right: 5px;
+        float: right;
+        letter-spacing: 1px;
+    }
+    
+    #info span {
+        padding: 0px 10px;
+    }
+    .main {
+        text-align: center;
+    font-family: "Times New Roman",Helvetica,Arial,sans-serif;
+    }
+    
+    ul.center {
+        display: table;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    
+    ul.center > li {
+        float: left;
+    }
+    
+   
+    .hover-circle {
+        margin-right: 30px;
+        position: relative;
+    }
+    
+    .hover-circle, .hover-circle img {
+        width: 228px;
+        height: 235px;
+        border-radius: 50%;
+    margin-left:10px;
+    }
+    
+    .hover-circle img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0px;
+    }
+    
+    .info h3 {
+        font-family: "Arimo", "Cambria", "Georgia", serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-align:center;
+        display: inline-block;
+        padding-top: 20%;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    .info p {
+        border-top: 1px solid #C3C3C3;
+        padding-top: 10px;
+        margin: 0px 30px 0px 30px;
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    
+    .effect1 .overlay {
+        background-color: rgba(120, 55, 18, 0.102);
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600), 0px 0px 0px 0px rgba(192, 61, 32, 0.806) inset;
+        -webkit-box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600), 0px 0px 0px 0px rgba(192, 61, 32, 0.806) inset;
+        position: absolute;
+        transition: box-shadow 0.3s linear;
+        -webkit-transition: box-shadow 0.3s linear;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        color: #fff;
+    margin-left:10px;
+    }
+    
+    .effect1 .overlay .info {
+        font-family: "Tahoma";
+        width: 100%;
+        height: 100%;
+        display: block;
+        transform: scale(0);
+        transition: all 0.3s linear;
+        -webkit-transform: scale(0);
+        -webkit-transition: all 0.3s linear;
+        border-radius: 50%;
+    }
+    
+    .effect1:hover .overlay .info {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    
+    .effect1:hover .overlay {
+        box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600), 0px 0px 0px 140px rgba(192, 61, 32, 0.806) inset;
+        -webkit-box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600), 0px 0px 0px 140px rgba(192, 61, 32, 0.806) inset;
+    }
+    
+    .effect2 .overlay {
+        background-color: rgba(120, 55, 18, 0.102);
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+        -webkit-box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+        position: absolute;
+        transition: box-shadow 0.3s linear;
+        -webkit-transition: box-shadow 0.3s linear;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        color: #fff;
+    }
+    
+    .effect2 .overlay .info {
+        font-family: "Tahoma";
+        width: 100%;
+        height: 100%;
+        display: block;
+        transform: scale(0);
+        transition: all 0.2s linear;
+        -webkit-transform: scale(0);
+        -webkit-transition: all 0.2s linear;
+        background-color: rgba(0, 0, 0, 0.800);
+        border-radius: 50%;
+    }
+    
+    .effect2:hover .overlay .info {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    
+    .effect2:hover .overlay {
+        box-shadow: 0px 0px 0px 0px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+    }
+    
+    .effect3 .overlay {
+        background-color: rgba(120, 55, 18, 0.102);
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+        -webkit-box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+        position: absolute;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        color: #fff;
+    }
+    
+    .effect3 .overlay .info {
+        font-family: "Tahoma";
+        width: 100%;
+        height: 100%;
+        display: block;
+        transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 50%;
+    }
+    
+    .effect3:hover .overlay .info {
+        opacity: 1;
+    }
+    
+    .effect3:hover .overlay {
+        box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+        -webkit-box-shadow: 0px 0px 0px 20px rgba(242, 242, 242, 0.196) inset, 0px 0px 3px rgba(100, 100, 100, 0.600);
+    }
+    #shadow
+   {
+	position: absolute;
+	margin: 0 auto;
+	display: inline;
+	background: url(../images/shadow.png) no-repeat;
+	top: 3px;
+	right: -45px;
+	width: 777px;
+	height: 491px;
+	z-index: 0;}
+   
+
+/* Audio Player Styles
+================================================== */
+
+audio {
+display:none;
+}
+
+
+
+#tracks {
+font-size:0;
+position:relative;
+text-align:center;
+}
+
+#nowPlay {
+display:block;
+font-size:0;
+}
+
+#nowPlay span {
+display:inline-block;
+font-size:1.05rem;
+vertical-align:top;
+}
+
+#nowPlay span#npAction {
+padding:21px;
+width:30%;
+}
+
+#nowPlay span#npTitle {
+padding:21px;
+text-align:right;
+width:70%;
+}
+
+
+
+
